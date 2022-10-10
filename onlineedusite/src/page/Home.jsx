@@ -3,6 +3,7 @@ import React, { Fragment } from 'react';
 import Header from '../components/Header/Header';
 import HeroSection from '../components/Hero-Section/Hero-section';
 import CompanySection from '../components/Company-section/company-section';
+import AboutUs from '../components/AboutUs/AboutUs';
 
 const Home = () => {
     return (
@@ -10,6 +11,7 @@ const Home = () => {
            <Header></Header>
            <HeroSection></HeroSection>
            <CompanySection></CompanySection>
+           <AboutUs></AboutUs>
         </Fragment>
     )
 }
