@@ -5,6 +5,7 @@ import HeroSection from '../components/Hero-Section/Hero-section';
 import CompanySection from '../components/Company-section/company-section';
 import AboutUs from '../components/AboutUs/AboutUs';
 import Courses from '../components/Course-section/Courses';
+import ChooseUs from '../components/ChooseUs/ChooseUs';
 
 const Home = () => {
     return (
@@ -14,6 +15,7 @@ const Home = () => {
            <CompanySection></CompanySection>
            <AboutUs></AboutUs>
            <Courses></Courses>
+           <ChooseUs></ChooseUs>
         </Fragment>
     )
 }
