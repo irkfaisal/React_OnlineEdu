@@ -7,6 +7,8 @@ import AboutUs from '../components/AboutUs/AboutUs';
 import Courses from '../components/Course-section/Courses';
 import ChooseUs from '../components/ChooseUs/ChooseUs';
 import Features from '../components/Features-section/features';
+import Newsletter from '../components/Newsletter/Newsletter';
+import Footer from '../components/Footer/footer';
 
 const Home = () => {
     return (
@@ -18,6 +20,8 @@ const Home = () => {
            <Courses></Courses>
            <ChooseUs></ChooseUs>
            <Features></Features>
+           <Newsletter></Newsletter>
+           <Footer></Footer>
         </Fragment>
     )
 }
